@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="views.aspirantes.RegistrarDatos.TercelPanel">
+  <grid id="27dc6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="3862" height="1074"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="13c6a" binding="contenido" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="3">
+        <constraints/>
+        <properties>
+          <background color="-855297"/>
+          <enabled value="false"/>
+          <preferredSize width="760" height="800"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fcbdf" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font size="16" style="1"/>
+              <foreground color="-16576228"/>
+              <preferredSize width="640" height="25"/>
+              <text value="   Registra tus datos"/>
+            </properties>
+          </component>
+          <grid id="716a2" binding="barraestado" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="4">
+            <constraints/>
+            <properties>
+              <background color="-921090"/>
+              <preferredSize width="620" height="50"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="3dd3d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <preferredSize width="680" height="470"/>
+              <requestFocusEnabled value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="bee0d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16776093"/>
+                  <inheritsPopupMenu value="true"/>
+                  <preferredSize width="650" height="460"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="a2e4a" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <font size="18" style="1"/>
+                      <foreground color="-13335049"/>
+                      <preferredSize width="600" height="20"/>
+                      <text value="Areas de interes Laboral"/>
+                    </properties>
+                  </component>
+                  <grid id="cf6db" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <preferredSize width="300" height="50"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="5bfc9" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="11" style="1"/>
+                          <foreground color="-6776680"/>
+                          <preferredSize width="280" height="10"/>
+                          <text value="Area"/>
+                        </properties>
+                      </component>
+                      <component id="aa5c2" class="javax.swing.JComboBox" binding="area">
+                        <constraints/>
+                        <properties>
+                          <minimumSize width="290" height="25"/>
+                          <preferredSize width="290" height="27"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="c11bb" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <preferredSize width="300" height="50"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="b91f1" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="11" style="1"/>
+                          <foreground color="-6776680"/>
+                          <preferredSize width="280" height="10"/>
+                          <text value="Tipo de perfil profesional"/>
+                        </properties>
+                      </component>
+                      <component id="cc7f2" class="javax.swing.JComboBox" binding="tipoperfilprofesional">
+                        <constraints/>
+                        <properties>
+                          <minimumSize width="500" height="30"/>
+                          <model/>
+                          <preferredSize width="290" height="27"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="b2bb4" class="javax.swing.JButton" binding="buttonareas">
+                    <constraints/>
+                    <properties>
+                      <foreground color="-13335049"/>
+                      <hideActionText value="true"/>
+                      <preferredSize width="78" height="20"/>
+                      <text value="agregar"/>
+                    </properties>
+                  </component>
+                  <component id="ebc84" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <preferredSize width="500" height="16"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <scrollpane id="3b9e8" binding="scrollPane">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <foreground color="-15916493"/>
+                      <preferredSize width="300" height="60"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </scrollpane>
+                  <component id="2f34a" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <preferredSize width="280" height="16"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="3bed7" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <font size="18" style="1"/>
+                      <foreground color="-13335049"/>
+                      <preferredSize width="600" height="20"/>
+                      <text value="Ultimos estudios"/>
+                    </properties>
+                  </component>
+                  <grid id="637d4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <preferredSize width="300" height="55"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="5c5df" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="11" style="1"/>
+                          <foreground color="-6776680"/>
+                          <preferredSize width="280" height="13"/>
+                          <text value="Lugar de estudios"/>
+                        </properties>
+                      </component>
+                      <component id="1d7be" class="javax.swing.JTextField" binding="lugarestudios">
+                        <constraints/>
+                        <properties>
+                          <foreground color="-6776680"/>
+                          <preferredSize width="290" height="30"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="67eeb" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <preferredSize width="300" height="55"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="ababd" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="11" style="1"/>
+                          <foreground color="-6776680"/>
+                          <preferredSize width="280" height="13"/>
+                          <text value="Area profesional"/>
+                        </properties>
+                      </component>
+                      <component id="1e648" class="javax.swing.JComboBox" binding="areaprofesional">
+                        <constraints/>
+                        <properties>
+                          <minimumSize width="290" height="30"/>
+                          <preferredSize width="290" height="30"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="2a68b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <preferredSize width="300" height="55"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="7ae90" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="11" style="1"/>
+                          <foreground color="-6776680"/>
+                          <preferredSize width="280" height="13"/>
+                          <text value="Nivel de estudios"/>
+                        </properties>
+                      </component>
+                      <component id="dcefc" class="javax.swing.JComboBox" binding="nivelestudios">
+                        <constraints/>
+                        <properties>
+                          <minimumSize width="290" height="30"/>
+                          <preferredSize width="290" height="30"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="9ccd2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <preferredSize width="300" height="55"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="efc42" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="11" style="1"/>
+                          <foreground color="-6776680"/>
+                          <preferredSize width="280" height="13"/>
+                          <text value="Titulo obtenido"/>
+                        </properties>
+                      </component>
+                      <component id="acd71" class="javax.swing.JTextField" binding="titulobtenido">
+                        <constraints/>
+                        <properties>
+                          <foreground color="-6776680"/>
+                          <preferredSize width="290" height="30"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="d4687" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <preferredSize width="151" height="51"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="f1efe" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="11" style="1"/>
+                          <foreground color="-6776680"/>
+                          <horizontalAlignment value="0"/>
+                          <preferredSize width="120" height="11"/>
+                          <text value="Fecha de inicio"/>
+                        </properties>
+                      </component>
+                      <component id="26690" class="javax.swing.JComboBox" binding="mesInicio">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="63" height="25"/>
+                        </properties>
+                      </component>
+                      <component id="aa646" class="javax.swing.JComboBox" binding="anoinicio">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="71" height="25"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="db0a6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <preferredSize width="145" height="51"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="40213" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <font size="11" style="1"/>
+                          <foreground color="-6776680"/>
+                          <horizontalAlignment value="0"/>
+                          <preferredSize width="120" height="11"/>
+                          <text value="fecha fin"/>
+                        </properties>
+                      </component>
+                      <component id="7cc29" class="javax.swing.JComboBox" binding="mesFin">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="63" height="25"/>
+                        </properties>
+                      </component>
+                      <component id="af91a" class="javax.swing.JComboBox" binding="anoFin">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="71" height="25"/>
+                        </properties>
+                      </component>
+                      <component id="dd57e" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="Label"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="885bd" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <preferredSize width="300" height="16"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <grid id="df3d9" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <foreground color="-1"/>
+                      <preferredSize width="550" height="52"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="cfab6" class="javax.swing.JButton" binding="atrasButton" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <foreground color="-13335049"/>
+                          <preferredSize width="130" height="50"/>
+                          <text value="Atras"/>
+                        </properties>
+                      </component>
+                      <component id="3de8c" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="12" height="0"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="5aa78" class="javax.swing.JButton" binding="guardarYContinuarButton">
+                        <constraints/>
+                        <properties>
+                          <foreground color="-33526"/>
+                          <preferredSize width="180" height="50"/>
+                          <text value="Guardar y Continuar"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

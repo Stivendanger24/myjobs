@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="views.empresas.pruebas">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-7581945"/>
+      <preferredSize width="1175" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="7d048" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <preferredSize width="300" height="16"/>
+          <text value="mi primer panel"/>
+        </properties>
+      </component>
+      <component id="c88bb" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="300" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a16d3" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="250" height="30"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="df89d" class="javax.swing.JFormattedTextField" binding="formattedTextField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="300" height="30"/>
+          <requestFocusEnabled value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
